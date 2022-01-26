@@ -33,7 +33,7 @@ button{
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
-    background: antiquewhite;
+    background: white;
     margin-bottom: 25px;
     margin-right: 50px;
 }
@@ -140,7 +140,7 @@ color: #000000;
         height: 250vh;
         margin-top: 250px;
         color: black;
-        background-color: antiquewhite;
+        background-color: white;
     
     }
 
@@ -210,7 +210,7 @@ color: #000000;
         height: 120vh;
         margin-top: -70px;
         color: black;
-        background-color: antiquewhite;
+        background-color: white;
     }
 
     .about h1{
@@ -225,7 +225,7 @@ color: #000000;
     .gsm{
         height: 90vh;
         width: 90%;
-        background-color: antiquewhite ;
+        background-color: white ;
         background : rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(1px) ;
         margin: auto;
@@ -291,7 +291,7 @@ color: #000000;
 
     .contact{
         height: 80vh;
-        background-color: antiquewhite;
+        background-color: white;
     }
 
     .contact h1{
@@ -318,7 +318,7 @@ color: #000000;
     
     .contact{
         height: 80vh;
-        background-color: antiquewhite;
+        background-color: white;
     }
 
     .contact h1{
@@ -345,7 +345,7 @@ color: #000000;
     .gmail{
         height: 50vh;
         width: 80%;
-        background-color: antiquewhite ;
+        background-color: white ;
         background : rgba(255, 255, 255, 0.1);
         backdrop-filter: blur(5px) ;
         margin: auto;
