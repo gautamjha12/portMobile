@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}    
+
+    body{
+        background-color: #413839;
+    }
+
+#navbar {
+    background: #413839;
+    color: #000;
+    overflow: hidden;
+    height: 65px;
+    width: 100%;
+    justify-content: center;
+  }
+
+button{
+    color: #000;
+    outline:  none;
+    font-size: 17px;
+    font-weight: 400;  
+    padding: 6px 12px; 
+    margin: 0 8px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: antiquewhite;
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+#navbar a{
+    color:  whitesmoke;
+    text-decoration: none;
+}
+
+#navbar .logo{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+}
+
+#navbar h1{
+padding: 20px;
+float: left ;    
+}
+
+#navbar ul{
+list-style: none;
+float: right;
+
+}
+
+#navbar ul li{
+float: left;
+}
+
+#navbar ul li a{
+display: block;
+padding: 20px;
+text-align: center;
+text-decoration: none;
+    
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current{
+color: #000000;
+}
+
+@media screen and (max-width: 425px) {
+
+    
+    
+    .container-fluid{
+        height: 60vh;
+    }
+
+    .container{
+        padding: 0;
+    }
+
+    .content h1{
+        font-size: 32px;
+        color: white;
+        margin-top: 55px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+
+    .container .content h2{
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        margin-bottom: 25px;
+
+    }
+
+    .lead{
+        font-size: 22px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        margin-top: 75px;
+        margin-bottom: 0;
+    }
+
+
+    .column img{
+        height: 300px;
+        width: 400px;
+    }
+
+    #knowmore button{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        text-decoration: none;
+        margin-top: 30px;
+        background-color: #B6B6B4;
+        color: black;
+        font-weight: 550;
+    }
+
+    #knowmore a{
+        text-decoration: none;
+    }
+
+    .projects{
+        height: 220vh;
+        margin-top: 250px;
+        color: black;
+        background-color: antiquewhite;
+    
+    }
+
+    .projects #mainProjHeader{
+        padding: 25px;
+        padding-bottom: 0;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .p1 img,
+    .p2 img,
+    .p3 img  {
+    box-shadow: 0 50px 70px rgba(0, 0, 0, 0.7);
+    margin-top: 25px;
+    }
+
+
+    .projects img{
+        height: 300px;
+        width: 400px;
+        margin-left : 5px;    
+    }
+
+    .Pdetails h1{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+
+    .Pdetails h3{
+        text-align: center;
+        font-size: 22px;
+        font-weight: 600;
+
+    }
+
+    .Pdetails p{
+        text-align: center;
+        font-style: 18px;
+        margin-top: 25px;
+        font-weight: 500;   
+    }
+
+    button{
+        color: #fff;
+        background-color: #413839;
+        outline:  none; 
+        font-size: 17px;
+        font-weight: 500;  
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+    .Pdetails a{
+        text-decoration: none;
+    }
+
+
+    .about{
+        height: 120vh;
+        margin-top: -70px;
+        color: black;
+        background-color: antiquewhite;
+    }
+
+    .about h1{
+        padding: 25px;
+        padding-bottom: 0;
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 50px;
+
+    }
+    
+    .gsm{
+        height: 90vh;
+        width: 90%;
+        background-color: antiquewhite ;
+        background : rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(1px) ;
+        margin: auto;
+        margin-top: 35px;
+        border-radius: 25px;
+        box-shadow: 0 50px 70px rgba(0, 0, 0, 0.3);
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .gsm img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        border-radius: 50%;
+        height: 150px;
+        width: 250px;
+        margin-top: 25px;
+    }
+
+    .gsm p{
+        text-align: justify;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    .gsm h5{
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    
+    .techstack h5{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .techstack {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #techstack{
+        margin-top: 25px; 
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .img {
+        flex: 33.33%;
+        padding: 5px;
+        position: relative;
+    }
+
+    .img img{
+        height: 70px;
+        width: 70px;
+        text-align: center;
+    }
+
+    .contact{
+        height: 80vh;
+        background-color: antiquewhite;
+    }
+
+    .contact h1{
+        padding-top: 50px;
+        font-size: 28px;
+        margin-bottom: 50px;
+        font-weight: 600;
+        margin-top: -50px;
+        text-align: left;
+    }
+
+    .img {
+        flex: 33.33%;
+        padding: 5px;
+        position: relative;
+    }
+    
+    .img img{
+        height: 70px;
+        width: 70px;
+        text-align: center;
+    
+    }
+    
+    .contact{
+        height: 80vh;
+        background-color: antiquewhite;
+    }
+
+    .contact h1{
+        padding-top: 50px;
+        font-size: 28px;
+        padding: 25px;
+        margin-bottom: 50px;
+        font-weight: 600;
+    
+    }
+    
+    hr.style13 {
+        height: 2px;
+        margin: 0 50px;
+        border: 0;
+        box-shadow: 0 10px 10px -10px #8c8b8b inset;
+     
+    }
+
+    .ml button{
+        padding: 10px;
+        margin-top: 25px;
+    }
+    .gmail{
+        height: 50vh;
+        width: 80%;
+        background-color: antiquewhite ;
+        background : rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px) ;
+        margin: auto;
+        border-radius: 25px;
+        margin-bottom: 25px;
+        box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+    }
+    
+    .gmail h2 a{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .gmail h2, .linkedin h2{
+        font-size: 45px;
+        text-align: center;
+        padding: 20px;
+    
+    }
+    
+    .gmail a, .linkedin a{
+        text-decoration: none;
+        outline: none;
+        color: black;
+    }
+    
+
+}
+
